@@ -20,7 +20,7 @@ jobs:
         ls
         npm install --legacy-peer-deps
         ls
-        echo ${{ secrets.EC2_SSH_KEY }}
+        echo secrets.EC2_SSH_KEY
         
     - name: Building
       run: |
